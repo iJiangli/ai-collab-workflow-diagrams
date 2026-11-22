@@ -2,10 +2,21 @@
 
 两张自包含的 HTML 架构图，纯矢量（SVG）渲染，可无限放大、可直接在浏览器里改文字，双击即开、无需联网、无需安装任何依赖。
 
+## 在线看（不用下载）
+
+| 看什么 | 网址 |
+| --- | --- |
+| **导航页**（推荐从这里进） | <https://ijiangli.github.io/ai-collab-workflow-diagrams/> |
+| 流程图 · 先做什么后做什么 | <https://ijiangli.github.io/ai-collab-workflow-diagrams/human-ai-collab-workflow.html> |
+| 结构图 · 谁依赖谁、谁有权改 | <https://ijiangli.github.io/ai-collab-workflow-diagrams/human-ai-collab-structure.html> |
+
+手机上也能打开，右上角可切深色 / 浅色。
+
 ## 文件
 
 | 文件 | 它回答的问题 | 看的时候注意什么 |
 | --- | --- | --- |
+| [`index.html`](index.html) | 导航页：两张图的关系、三道关卡一眼看全 | 卡片点进去就是大图；深色浅色跟随系统 |
 | [`human-ai-collab-workflow.html`](human-ai-collab-workflow.html) | **先做什么、后做什么**——一条主干从定规矩走到人工验收 | 三条泳道（人 / AI / 仓库）；每个横向箭头都是一次交接；每个向下的虚线都是一次「入仓」；右下三张卡片是关卡、Git 硬规矩、打回规则 |
 | [`human-ai-collab-structure.html`](human-ai-collab-structure.html) | **系统由哪几块组成、谁依赖谁、谁有权改什么**——同一件事的静态切面 | 三层（人的决策层 / AI 执行层 / 仓库事实源）；人的决策层故意分成「计划侧」和「验收侧」两处，中间那段空档表示 AI 连续作业时人不介入 |
 
